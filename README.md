@@ -23,8 +23,8 @@ Este proyecto es una calculadora básica desarrollada con Kotlin y la arquitectu
 ## Arquitectura
 
 La aplicación sigue el patrón arquitectónico MVVM (Model-View-ViewModel) para separar las responsabilidades y mejorar la escalabilidad. La estructura de carpetas y archivos importantes en el proyecto es la siguiente:
-|-- app
 
+|-- app
    |-- src
       |-- main
          |-- java/com/tu_usuario/calculadorawearos
@@ -61,12 +61,16 @@ Si quieres contribuir a este proyecto, ¡eres bienvenido! Puedes hacerlo siguien
 1. Haz un fork del repositorio.
 
 2. Crea una nueva rama para tu contribución:
-   >>> git checkout -b mi-nueva-funcionalidad
+   > git checkout -b mi-nueva-funcionalidad
 3. Realiza tus cambios y commits:
-   >>> git commit -m "Agregada nueva funcionalidad: XXX"
+   > git commit -m "Agregada nueva funcionalidad: XXX"
 4. Envía tus cambios al repositorio remoto:
-   >>> git push origin mi-nueva-funcionalidad
+   > git push origin mi-nueva-funcionalidad
 5. Abre un pull request en la página del repositorio original para revisar tus cambios.
+
+## Video Demostracion
+[![Texto alternativo](https://img.youtube.com/vi/n1pBuBC9Uv4/0.jpg)](https://www.youtube.com/watch?v=n1pBuBC9Uv4)
+
 
 ## Licencia
 
