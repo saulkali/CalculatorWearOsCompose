@@ -24,22 +24,23 @@ Este proyecto es una calculadora básica desarrollada con Kotlin y la arquitectu
 
 La aplicación sigue el patrón arquitectónico MVVM (Model-View-ViewModel) para separar las responsabilidades y mejorar la escalabilidad. La estructura de carpetas y archivos importantes en el proyecto es la siguiente:
 |-- app
-|-- src
-|-- main
-|-- java/com/tu_usuario/calculadorawearos
-|-- common
-|-- entities
-|-- utils
-|-- modules
-|-- moduleMain
-|-- view
-|-- viewModel
-|-- model
-|-- moduleHistory
-|-- view
-|-- viewModel
-|-- model
-|-- ...
+
+   |-- src
+      |-- main
+         |-- java/com/tu_usuario/calculadorawearos
+            |-- common
+               |-- entities
+               |-- utils
+            |-- modules
+               |-- moduleMain
+                  |-- view
+                  |-- viewModel
+                  |-- model
+               |-- moduleHistory
+                  |-- view
+                  |-- viewModel
+                  |-- model
+               |-- ...
 
 En esta estructura, hemos dividido el proyecto en diferentes módulos, y cada módulo tiene su propia carpeta que contiene las partes correspondientes del patrón MVVM, como vistas (`view`), modelos (`model`), y modelos de vista (`viewModel`). Además, hemos incluido una carpeta común (`common`) que alberga las entidades (`entities`) y utilidades (`utils`) compartidas entre los diferentes módulos.
 
